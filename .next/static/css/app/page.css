@@ -1,0 +1,265 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_mainpage__wPmW_ {
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: black;
+}
+
+.page_leftOut__7pX2N{
+  /* background-color: red; */
+  width: 20%;
+  overflow: hidden;
+}
+.page_rightOut___fW60{
+  /* background-color: blue; */
+  width: 80%;
+  
+  overflow: hidden;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/RightSection.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.RightSection_rightSection__uJKXE {
+    background-color: var(--col2);
+    height: 100vh;
+    padding: 0px 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.RightSection_schoolbg__8kFw5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.RightSection_rightin__Bb6ev{
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.RightSection_chatgptversion__QyvaH {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 10%;
+    color: var(--textcol);
+    font-size: 25px;
+    gap: 10px;
+    z-index: 2;
+
+}
+
+.RightSection_chatgptversion__QyvaH svg {
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+
+}
+
+
+.RightSection_nochat__Nzlho {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--textcol);
+    font-size: 25px;
+    height: 70%;
+    position: relative;
+}
+
+.RightSection_nochat__Nzlho .RightSection_s1__NYrpv {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.RightSection_nochat__Nzlho .RightSection_s1__NYrpv h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.RightSection_nochat__Nzlho .RightSection_s2__otGlX {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.RightSection_nochat__Nzlho .RightSection_suggestioncard__mU2r2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.RightSection_nochat__Nzlho .RightSection_suggestioncard__mU2r2 h2 {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.RightSection_nochat__Nzlho .RightSection_suggestioncard__mU2r2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.RightSection_bottomsection__rfCQo {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    z-index: 10;
+
+}
+
+
+.RightSection_bottomsection__rfCQo svg {
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.RightSection_bottomsection__rfCQo svg:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.RightSection_bottomsection__rfCQo .RightSection_messagebar__F7LmM {
+    border: 1px solid gray;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.RightSection_bottomsection__rfCQo .RightSection_messagebar__F7LmM input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: var(--textcol);
+    width: 100%;
+}
+
+.RightSection_messages__d9vr7{
+    height: 70%;
+    width: 100%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: auto;
+}
+
+
+.RightSection_messages__d9vr7 .RightSection_message__9xPhQ{
+    display: flex;
+    gap: 10px;
+}
+
+.RightSection_messages__d9vr7 .RightSection_message__9xPhQ img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.RightSection_messages__d9vr7 .RightSection_message__9xPhQ div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.RightSection_messages__d9vr7 .RightSection_message__9xPhQ div h2{
+    color: var(--textcol);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+.RightSection_messages__d9vr7 .RightSection_message__9xPhQ div p{
+    color: var(--textcol);
+    font-size: 15px;
+    max-width: 1000px;
+}
+
+
+.RightSection_bottomsection__rfCQo p{
+    color: goldenrod;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/styles/LeftSection.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.LeftSection_leftSection__o0l3G {
+    background-color: var(--col1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.LeftSection_newChat__wvcgJ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 10%;
+}
+
+.LeftSection_text1__gJ_sI{
+    color: var(--textcol);
+    font-size: 20px;
+}
+
+.LeftSection_newChat__wvcgJ div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.LeftSection_newChat__wvcgJ div img{
+    border-radius: 50%;
+}
+.LeftSection_newChat__wvcgJ svg {
+    width: 30px;
+    height: 30px;
+    color: var(--textcol);
+}
+
+.LeftSection_allChats__Gn1mE{
+    height: 70%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    gap: 20px;
+    padding: 0px 20px;
+}
+
